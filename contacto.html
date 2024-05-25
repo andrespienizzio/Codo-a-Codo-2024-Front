@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tierra Viva</title>
-  <link rel="stylesheet" href="./css/servicios.css">
+  <link rel="stylesheet" href="./css/contacto.css">
   <link rel="stylesheet" href="./css/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
@@ -24,8 +24,8 @@
     <ul class="menu">
       <li><a href="index.html" class="menu-btn">Inicio</a></li>
       <li><a href="quienes_somos.html" class="menu-btn" >Quienes somos</a></li>
-      <li><a href="./servicios.html" class="menu-btn">Servicios</a></li>
-      <li><a href="#Contacto" class="menu-btn">Contacto</a></li>
+      <li><a href="servicios.html" class="menu-btn">Servicios</a></li>
+      <li><a href="contacto.html" class="menu-btn">Contacto</a></li>
     </ul>
     </nav>
   </header>
@@ -34,23 +34,35 @@
     <div class="nosotros">
       <div class="container__cards">
         <div class="card">
-          <div class="cover_card_1">
+          <div class="contact_form">
+            <h2>Formulario de Contacto</h2>
+            <form action="/action_page.php" method="post">
+                <div class="form-group">
+                    <label for="nombre">Nombre y Apellido</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" name="telefono" pattern="[0-9]{10}" required>
+                </div>
+                <div class="form-group">
+                    <label for="localidad">Localidad</label>
+                    <input type="text" id="localidad" name="localidad" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" placeholder="Deja aquí tu comentario..." required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
           </div>
-          <h2 class="titulos">Consultoría Ambiental:</h2>
-          <p class="texto-descripciones">Brindamos soluciones integrales para cumplir con normativas ambientales, gestionando impactos ecológicos y promoviendo prácticas sostenibles en empresas y proyectos.</p>
-          </div>
-        <div class="card">
-          <div class="cover_card_2">
-          </div>
-          <h2 class="titulos">Asesoramiento Legal Ambiental:</h2>
-          <p class="texto-descripciones">Ofrecemos orientación jurídica especializada para asegurar el cumplimiento de leyes ambientales, resolviendo conflictos y garantizando la conformidad regulatoria.</p>
-          </div>
-        <div class="card">
-          <div class="cover_card_3">
-          </div>
-          <h2 class="titulos">Análisis Químicos:</h2>
-          <p class="texto-descripciones">Realizamos estudios precisos de muestras ambientales, identificando contaminantes y evaluando su impacto, para asegurar la calidad y seguridad ambiental.</p>
-          </div>
+        </div>
       </div>
     </div>
   </section>
