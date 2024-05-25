@@ -322,12 +322,6 @@
     background-attachment: fixed;
 }
 
-.cuarta{
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-    min-height: 100vh; 
-}
-
 .main .content h2{
     color: rgb(8, 60, 235);
     font-size: 1.5em;
@@ -374,24 +368,31 @@ footer{
     background-size: cover;
 }
 
-.container__footer{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: auto;
-    margin-top: 100px;
-}
-
 .box__footer{
-    display: flex;
-    flex-direction: row;
     padding: 40px;
 }
 
+#redes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+
 .box__footer a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 10px;
     color: #7a7a7a;
     font-weight: 600;
     text-decoration: none;
+}
+
+.box__copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: #0a0a0a;
 }
