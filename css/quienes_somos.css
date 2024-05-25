@@ -42,9 +42,52 @@
   overflow: hidden;
 }
 
-.cover__card img{
+.cover_card_1 {
   width: 100%;
+  height: 250px;
+  border-radius: 20px;
+  overflow: hidden;
   transition: all 300ms;
+  background: url(../images/quienes_somos/ana-belen.jpg)no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  background-size:cover
+}
+
+.cover_card_2 {
+  width: 100%;
+  height: 250px;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 300ms;
+  background: url(../images/quienes_somos/andres.jpg)no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  background-size:cover
+}
+
+.cover_card_3 {
+  width: 100%;
+  height: 250px;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 300ms;
+  background: url(../images/quienes_somos/juan-manuel.jpg)no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  background-size:cover
+}
+
+.cover_card_4 {
+  width: 100%;
+  height: 250px;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 300ms;
+  background: url(../images/quienes_somos/oscar-luis.jpg)no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  background-size:cover
 }
 
 .card h2{
