@@ -285,7 +285,7 @@
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(./images/inicio/imagen_inicio_1.jpg)no-repeat;
+    background: url(../images/inicio/imagen_inicio_1.jpg)no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -303,7 +303,7 @@
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(../../inicio/imagen_inicio_2.jpg)no-repeat;
+    background: url(../images/inicio/imagen_inicio_2.jpg)no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
