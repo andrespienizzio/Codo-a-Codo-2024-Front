@@ -60,6 +60,4 @@ Cualquier duda enviar un mensaje directo a alguno de los colaboradores
 
 [Rickroll](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
-[![20221130-argentina-lionelmessi-diegomaradona-1iy3mxzq1amvq1vnomz1zwvamh.jpg](https://i.postimg.cc/fL2YDBR0/20221130-argentina-lionelmessi-diegomaradona-1iy3mxzq1amvq1vnomz1zwvamh.jpg)](https://postimg.cc/S29nGL8y)
-
 
