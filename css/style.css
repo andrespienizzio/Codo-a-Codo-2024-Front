@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .menu.show {
-    display: block; /* Mostrar el menú cuando la clase 'show' está presente */
+    display: block; /* Mostrar el menú cuando la clase "show" está presente */
 }
 
   /* Animación para convertir las barras en una "X" */

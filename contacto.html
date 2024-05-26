@@ -32,38 +32,38 @@
   <main>
   <section>
     <div class="nosotros">
-      <div class="container__cards">
-        <div class="card">
-          <div class="contact_form">
-            <h2>Formulario de Contacto</h2>
-            <form action="/action_page.php" method="post">
-                <div class="form-group">
-                    <label for="nombre">Nombre y Apellido</label>
-                    <input type="text" id="nombre" name="nombre" required>
+        <div class="container__cards">
+            <div class="card">
+                <div class="contact_form">
+                    <h2>Formulario de Contacto</h2>
+                    <form id="contactForm" action="/action_page.php" method="post">
+                        <div class="form-group">
+                            <label for="nombre">Nombre y Apellido</label>
+                            <input type="text" id="nombre">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="telefono">Teléfono</label>
+                            <input type="tel" id="telefono" name="telefono" pattern="[0-9]{10}">
+                        </div>
+                        <div class="form-group">
+                            <label for="localidad">Localidad</label>
+                            <input type="text" id="localidad" name="localidad">
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea id="mensaje" name="mensaje" placeholder="Deja aquí tu comentario..."></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit">Enviar</button>
+                        </div>
+                    </form>
                 </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="telefono">Teléfono</label>
-                    <input type="tel" id="telefono" name="telefono" pattern="[0-9]{10}" required>
-                </div>
-                <div class="form-group">
-                    <label for="localidad">Localidad</label>
-                    <input type="text" id="localidad" name="localidad" required>
-                </div>
-                <div class="form-group">
-                    <label for="mensaje">Mensaje</label>
-                    <textarea id="mensaje" name="mensaje" placeholder="Deja aquí tu comentario..." required></textarea>
-                </div>
-                <div class="form-group">
-                    <button type="submit">Enviar</button>
-                </div>
-            </form>
-          </div>
+            </div>
         </div>
-      </div>
     </div>
   </section>
   </main>
